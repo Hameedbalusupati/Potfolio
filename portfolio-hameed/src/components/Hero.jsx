@@ -22,6 +22,10 @@ export default function Hero() {
 
       <p>B.Tech | Pace Institute of Technology and Sciences</p>
 
+      <a href="/resume.pdf" download className="resume-btn">
+        Download Resume
+      </a>
+
     </section>
   )
 }

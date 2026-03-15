@@ -1,21 +1,51 @@
-export default function Contact(){
+export default function Contact() {
 
-return(
+    return (
 
-<section id="contact" className="section">
+        <section id="contact" className="section">
 
-<h2>Contact Me</h2>
+            <h2 className="section-title">Contact Me</h2>
 
-<p>Email: hameedbalusupati023@gmail.com</p>
+            <div className="contact-container">
 
-<p>GitHub: github.com/Hameedbalusuapti</p>
+                <div className="contact-card">
+                    <h3>Email</h3>
+                    <a href="mailto:hameedbalusupati023@gmail.com">
+                        hameedbalusupati023@gmail.com
+                    </a>
+                </div>
 
-<p>LinkedIn: linkedin.com/in/mahammad-hameed</p>
+                <div className="contact-card">
+                    <h3>GitHub</h3>
+                    <a
+                        href="https://github.com/Hameedbalusupati"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        github.com/Hameedbalusupati
+                    </a>
+                </div>
 
-<p>Mobile: +91 9618913824</p>
+                <div className="contact-card">
+                    <h3>LinkedIn</h3>
+                    <a
+                        href="https://linkedin.com/in/mahammad-hameed"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        linkedin.com/in/mahammad-hameed
+                    </a>
+                </div>
 
-</section>
+                <div className="contact-card">
+                    <h3>Mobile</h3>
+                    <p>+91 9618913824</p>
+                </div>
 
-)
+            </div>
+
+        </section>
+
+    )
 
 }
