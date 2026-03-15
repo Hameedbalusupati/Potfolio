@@ -12,17 +12,17 @@ function App() {
   return (
     <div>
 
-      <Background3D />
+      {/* <Background3D /> */}
 
       <Navbar />
+      <About />
       <Hero />
       <Skills />
       <Projects />
       <GithubProjects />
       <Contact />
       <Footer />
-      <About/>
-
+      
     </div>
   )
 }
