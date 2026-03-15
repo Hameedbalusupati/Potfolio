@@ -5,13 +5,14 @@ import Projects from "./components/Project"
 import GithubProjects from "./components/GithubProjects"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import About from "./components/About"
 import Background3D from "./components/Background3D"
 
 function App() {
   return (
     <div>
 
-      {/* <Background3D /> */}
+      <Background3D />
 
       <Navbar />
       <Hero />
@@ -20,6 +21,7 @@ function App() {
       <GithubProjects />
       <Contact />
       <Footer />
+      <About/>
 
     </div>
   )
