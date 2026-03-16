@@ -134,22 +134,63 @@ body::before {
 
 /* About Section */
 
-.section-title {
-    font-size: 32px;
-    margin-bottom: 25px;
-    text-align: center;
+.about-section {
+    padding: 100px 60px;
 }
 
 .about-container {
-    max-width: 800px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 60px;
+
+    max-width: 1100px;
     margin: auto;
-    line-height: 1.8;
-    font-size: 18px;
-    color: #e2e8f0;
+
 }
 
-.about-container p {
-    margin-bottom: 18px;
+/* Text */
+
+.about-text {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Image */
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+
+    width: 320px;
+    height: 420px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+
+    transition: 0.4s;
+
+}
+
+.about-image img:hover {
+
+    transform: scale(1.05);
+
 }
 
 /* Section */
