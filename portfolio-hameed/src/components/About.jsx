@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpg"
+import profile from "../assets/image.jpeg"
 
 export default function About() {
 
@@ -9,6 +9,7 @@ export default function About() {
       <div className="about-container">
 
         {/* LEFT SIDE TEXT */}
+
         <div className="about-text">
 
           <h2>About Me</h2>
@@ -21,7 +22,7 @@ export default function About() {
           </p>
 
           <p>
-            I build real-world projects using
+            I enjoy building real-world applications using
             <strong> Python, React, Flask and SQL.</strong>
           </p>
 
@@ -33,9 +34,10 @@ export default function About() {
         </div>
 
         {/* RIGHT SIDE IMAGE */}
+
         <div className="about-image">
 
-          <img src={profile} alt="Hameed Profile"/>
+          <img src={profile} alt="Hameed"/>
 
         </div>
 
