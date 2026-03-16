@@ -8,7 +8,7 @@ export default function About() {
 
       <div className="about-container">
 
-        {/* Left Side Text */}
+        {/* LEFT SIDE TEXT */}
         <div className="about-text">
 
           <h2>About Me</h2>
@@ -21,7 +21,7 @@ export default function About() {
           </p>
 
           <p>
-            I enjoy building real-world applications using
+            I build real-world projects using
             <strong> Python, React, Flask and SQL.</strong>
           </p>
 
@@ -32,10 +32,10 @@ export default function About() {
 
         </div>
 
-        {/* Right Side Image */}
+        {/* RIGHT SIDE IMAGE */}
         <div className="about-image">
 
-          <img src={profile} alt="Hameed" />
+          <img src={profile} alt="Hameed Profile"/>
 
         </div>
 
