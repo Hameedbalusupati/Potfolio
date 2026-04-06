@@ -24,7 +24,8 @@ export default function About() {
           </p>
 
           <p>
-            Currently pursuing <strong>B.Tech at Pace Institute of Technology and Sciences.</strong>
+            Currently pursuing{" "}
+            <strong>B.Tech at Pace Institute of Technology and Sciences.</strong>
           </p>
         </div>
 
