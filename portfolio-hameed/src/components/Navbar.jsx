@@ -1,15 +1,11 @@
 export default function Navbar() {
-
   return (
-
     <nav className="navbar">
-
       <div className="logo">
         Hameed
       </div>
 
       <ul className="nav-links">
-
         <li>
           <a href="#about">About</a>
         </li>
@@ -25,11 +21,7 @@ export default function Navbar() {
         <li>
           <a href="#contact">Contact</a>
         </li>
-
       </ul>
-
     </nav>
-
-  )
-
+  );
 }

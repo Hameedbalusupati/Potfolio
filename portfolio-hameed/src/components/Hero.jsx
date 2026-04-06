@@ -1,4 +1,4 @@
-import { Typewriter } from "react-simple-typewriter"
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
@@ -7,17 +7,18 @@ export default function Hero() {
       <h1>Balusupati Mahammad Hameed</h1>
 
       <h2 className="typing">
-
         <Typewriter
           words={[
             "Machine Learning Engineer",
             "Data Analyst"
           ]}
-          loop
+          loop={0}                 // infinite loop
           cursor
           cursorStyle="|"
+          typeSpeed={70}
+          deleteSpeed={50}
+          delaySpeed={1500}
         />
-
       </h2>
 
       <p>B.Tech | Pace Institute of Technology and Sciences</p>
@@ -27,5 +28,5 @@ export default function Hero() {
       </a>
 
     </section>
-  )
+  );
 }

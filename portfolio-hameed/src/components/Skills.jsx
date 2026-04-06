@@ -1,5 +1,4 @@
 export default function Skills() {
-
   const skills = [
     { name: "Python", level: 90 },
     { name: "Machine Learning", level: 75 },
@@ -7,30 +6,31 @@ export default function Skills() {
     { name: "SQL", level: 80 },
     { name: "React", level: 70 },
     { name: "Flask", level: 75 }
-  ]
+  ];
 
   return (
     <section id="skills" className="section">
-
       <h2>Professional Skills</h2>
 
-      {skills.map((skill, i) => (
+      <div className="skills-container">
+        {skills.map((skill) => (
+          <div key={skill.name} className="skill">
+            
+            <div className="skill-header">
+              <span>{skill.name}</span>
+              <span>{skill.level}%</span>
+            </div>
 
-        <div key={i} className="skill">
+            <div className="bar">
+              <div
+                className="progress"
+                style={{ width: `${skill.level}%` }}
+              ></div>
+            </div>
 
-          <p>{skill.name}</p>
-
-          <div className="bar">
-            <div
-              className="progress"
-              style={{ width: skill.level + "%" }}
-            ></div>
           </div>
-
-        </div>
-
-      ))}
-
+        ))}
+      </div>
     </section>
-  )
+  );
 }

@@ -1,5 +1,3 @@
-import { title } from "framer-motion/client"
-
 export default function Projects() {
 
   const projects = [
@@ -14,9 +12,8 @@ export default function Projects() {
     {
       title: "AI Legal Document Analyzer",
       desc: "Telegram bot using Legal-BERT to detect risky clauses"
-    },
-    
-  ]
+    }
+  ];
 
   return (
     <section id="projects" className="section">
@@ -25,19 +22,17 @@ export default function Projects() {
 
       <div className="project-grid">
 
-        {projects.map((p, i) => (
-
-          <div key={i} className="card">
+        {projects.map((p) => (
+          <div key={p.title} className="card">
 
             <h3>{p.title}</h3>
             <p>{p.desc}</p>
 
           </div>
-
         ))}
 
       </div>
 
     </section>
-  )
+  );
 }
