@@ -1,4 +1,3 @@
-// import profile from "../assets/image.jpeg";
 import profile from "../assets/image.jpeg";
 
 export default function About() {
@@ -6,7 +5,6 @@ export default function About() {
     <section id="about" className="about-section">
       <div className="about-container">
 
-        {/* LEFT SIDE TEXT */}
         <div className="about-text">
           <h2>About Me</h2>
 
@@ -30,7 +28,6 @@ export default function About() {
           </p>
         </div>
 
-        {/* RIGHT SIDE IMAGE */}
         <div className="about-image">
           <img
             src={profile}
