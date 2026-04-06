@@ -1,3 +1,4 @@
+// import profile from "../assets/image.jpeg";
 import profile from "../assets/image.jpeg";
 
 export default function About() {
