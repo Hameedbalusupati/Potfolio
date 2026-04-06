@@ -1,5 +1,3 @@
-import profile from "../assets/image.jpeg";
-
 export default function About() {
   return (
     <section id="about" className="about-section">
@@ -12,8 +10,7 @@ export default function About() {
             Hello! I'm <strong>Balusupati Mahammad Hameed</strong>, a passionate
             developer interested in{" "}
             <strong>
-              Machine Learning, Artificial Intelligence, Data Analysis and Web
-              Development.
+              Machine Learning, Artificial Intelligence, Data Analysis and Web Development.
             </strong>
           </p>
 
@@ -30,7 +27,7 @@ export default function About() {
 
         <div className="about-image">
           <img
-            src={profile}
+            src="/profile.jpg"
             alt="Balusupati Mahammad Hameed"
             loading="lazy"
           />
