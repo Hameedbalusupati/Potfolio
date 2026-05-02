@@ -27,7 +27,7 @@ export default function About() {
 
         <div className="about-image">
           <img
-            src="/profile.jpg"
+            src="/image.jpg"
             alt="Balusupati Mahammad Hameed"
             loading="lazy"
           />
